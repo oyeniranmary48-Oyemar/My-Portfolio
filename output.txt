@@ -1,0 +1,52 @@
+=== Exercise 1: Grade Calculator ===
+Score 85 -> A
+Score 70 -> A
+Score 65 -> B
+Score 60 -> B
+Score 55 -> C
+Score 50 -> C
+Score 49 -> F
+Score 0 -> F
+Score 100 -> A
+Score -5 -> Invalid Score
+Score 101 -> Invalid Score
+
+=== Exercise 2: Number Guessing Game ===
+Attempt 1: 50 -> Too high
+Attempt 2: 25 -> Too low
+Attempt 3: 37 -> Too low
+Attempt 4: 43 -> Too low
+Attempt 5: 46 -> Too low
+Out of attempts. The number was 47.
+
+=== Exercise 3: FizzBuzz ===
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+FizzBuzz

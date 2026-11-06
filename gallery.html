@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-family: Verdana, Geneva, sans-serif;
+      color: #1f2a44;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .tile {
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #ffffff;
+      background-color: #1f2a44;
+      border-radius: 6px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .tile:hover {
+      transform: translateY(-6px);
+      background-color: #dc143c;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gallery</h1>
+
+  <div class="gallery">
+    <div class="tile">HTML</div>
+    <div class="tile">CSS</div>
+    <div class="tile">JavaScript</div>
+    <div class="tile">Flexbox</div>
+    <div class="tile">CSS Grid</div>
+    <div class="tile">Accessibility</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
